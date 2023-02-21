@@ -111,6 +111,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+  font-family: "GRuppo";
 }
 nav a {
   padding:1em;
@@ -126,6 +127,7 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 .sitemap {
+  font-family: "Gruppo";
   display: grid;
   justify-content: center;
 
