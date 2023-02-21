@@ -60,6 +60,19 @@ p {
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
+.branding{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+}
+.logo{
+  background-color: black;
+  color: white;
+  font-family: "Gruppo";
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+}
 .colors {
   width: 100%;
   min-width: 350px;
