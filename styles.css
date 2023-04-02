@@ -1,25 +1,23 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Gruppo&family=Noto+Serif+Display:ital,wght@1,100&family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Lato:wght@100&display=swap');
 
 :root {
-  --primary-color: #BD8A62   ;
-  --secondary-color: #F2B23F ;
-  --accent1-color: #F3F1ED;
-  --accent2-color: #FED0AF;
+  --primary-color: black  ;
+  --secondary-color: white ;
+  --accent1-color: #F9F5EB;
 
   --heading-font: "Gruppo";
-  --paragraph-font: "Noto Serif Display", serif;
-
-  --headline-color-on-white: #BD8A62;  
-  --headline-color-on-color: white; 
+  --paragraph-font: "Lato", sans-serif;
+  --headline-color-on-white: black;  
+  --headline-color-on-color: black;
   --paragraph-color-on-white: black;  
   --paragraph-color-on-color: black;  
-  --paragraph-background-color: #FED0AF
+  --paragraph-background-color: #F9F5EB
   ;
   --nav-link-color: white;
-  --nav-background-color: #BD8A62;
-  --nav-hover-link-color: #FED0AF;
-  --nav-hover-background-color: #F2B23F;
+  --nav-background-color: black;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: #F9F5EB;
 }
 
 body {
@@ -88,6 +86,7 @@ p {
 }
 .primary {
   background-color: var(--primary-color);
+  color: white;
 }
 .secondary {
   background-color: var(--secondary-color);
@@ -95,9 +94,8 @@ p {
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
-  background-color: var(--accent2-color);
-}
+
+
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
